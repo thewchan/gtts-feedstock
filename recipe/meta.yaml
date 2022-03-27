@@ -7,7 +7,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/gTTS-{{ version }}.tar.gz
+  url: https://github.com/pndurette/{{ name }}/archive/refs/tags/v{{ vesion }}.tar.gz
   sha256: e0b688ff777928afe280c3cf4d36bc7b794e93e86851b680d54ba2fb68e88456
 
 build:
