@@ -1,5 +1,5 @@
 {% set name = "gTTS" %}
-{% set version = "2.2.3" %}
+{% set version = "2.2.4" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/gTTS-{{ version }}.tar.gz
-  sha256: 88cfaa112471867009a0450a696e5bc69cf1671fa0fa683fe17d0650023c863c
+  url: https://github.com/pndurette/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
+  sha256: e0b688ff777928afe280c3cf4d36bc7b794e93e86851b680d54ba2fb68e88456
 
 build:
   number: 0
